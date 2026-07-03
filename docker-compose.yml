@@ -18,6 +18,7 @@ services:
       - APP_KEY=${APP_KEY}
       - DB_CONNECTION=mysql
       - DB_HOST=database
+      - QUEUE_CONNECTION=database
       - DB_PORT=3306
       - DB_DATABASE=${DB_DATABASE}
       - DB_USERNAME=${DB_USERNAME}
@@ -41,6 +42,7 @@ services:
       - APP_KEY=${APP_KEY}
       - DB_CONNECTION=mysql
       - DB_HOST=database
+      - QUEUE_CONNECTION=database
       - DB_PORT=3306
       - DB_DATABASE=${DB_DATABASE}
       - DB_USERNAME=${DB_USERNAME}
